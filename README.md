@@ -79,6 +79,36 @@ The configuration file has been streamlined by removing the `heater_entity_id` a
 ![描述](images/WechatIMG226.jpg)
 ![描述](images/WechatIMG227.jpg)
 
+## HA configuration.yaml Sample
+
+Here's a sample configuration for integrating the `tuya_generic_thermostat` with Home Assistant:
+
+```yaml
+climate:
+  - platform: tuya_generic_thermostat
+    name: "主卧空调"
+    #heater: switch.master_bedroom_tcooling_switch
+    target_sensor: sensor.temperature_humidity_sensor_XXXXX_temperature
+    #target_sensor: sensor.ble_temperature_zhu_wo_qing_XXXXX_du_ji
+    unique_id: "主卧空调xxx，一定要唯一"
+    access_id: "tty7xxxxxxxnuw"
+    access_secret: "a60xxxxxxxxxxxxxed"
+    remote_id: "6cxxxxxxxxvif0"
+    ac_id: "6c3xxxxxxxcttx5"
+    min_temp: 16
+    max_temp: 30
+    ac_mode: true
+    target_temp: 24.7
+    sleep_temp: 26.7
+    activity_temp: 22.7
+    comfort_temp: 24.7
+    cold_tolerance: 0.3
+    hot_tolerance: 0.3
+    min_cycle_duration:
+      minutes: 3
+    initial_hvac_mode: "off"
+    precision: 0.1
+
 
 ## Before Using / 使用前准备
 
