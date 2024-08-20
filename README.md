@@ -42,7 +42,8 @@ This project is a tailored version of the Home Assistant (HA) official `generic_
 
 - **Separate User-Defined Target Temperatures and AC Operating Temperatures**: Allows setting separate user-defined target temperatures and operating temperatures for the air conditioner. For example, if the target room temperature is set to 24°C, the air conditioner can cool to 22°C to reach the target temperature more quickly.
 
-- **Tuya API Integration**: Supports Tuya API calls with automatic reconnection in case of failure, ensuring reliable communication with the Tuya cloud. Note: This code is configured to work with Tuya's China server. If you are in other countries or regions, please replace the API URL in `api_x.py` from `https://openapi.tuyacn.com` to the appropriate data center URL for your location.
+- **Tuya API Integration**: Supports Tuya API calls with automatic reconnection in case of failure, ensuring reliable communication with the Tuya cloud. Note: This code is configured to work with Tuya's China server. If you are in other countries or regions, please replace the API URL in `api_x.py` from <span style="color:red;">https://openapi.tuyacn.com</span> to the appropriate data center URL for your location.
+
 
 **中文**:
 
@@ -54,7 +55,7 @@ This project is a tailored version of the Home Assistant (HA) official `generic_
 
 - **分开的用户设置的目标温度和空调运行温度**：允许设置独立的目标温度和空调运行温度。例如，如果目标室内温度设为 24°C，空调可以降到 22°C，以更快达到目标温度。
 
-- **Tuya API 集成**：支持 Tuya API 调用，并在失败时自动重新连接，确保与 Tuya 云的可靠通信。注意：该代码配置为使用 Tuya 的中国服务器。如果你在其他国家或地区，请将 `api_x.py` 中的 API URL 从 `https://openapi.tuyacn.com` 更改为适合你位置的数据中心 URL。
+- **Tuya API 集成**：支持 Tuya API 调用，并在失败时自动重新连接，确保与 Tuya 云的可靠通信。注意：该代码配置为使用 Tuya 的中国服务器。如果你在其他国家或地区，请将 `api_x.py` 中的 API URL 从 <span style="color:red;">https://openapi.tuyacn.com</span> 更改为适合你位置的数据中心 URL。
 
 ## Simplified Configuration / 简化配置
 
