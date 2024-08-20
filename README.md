@@ -74,6 +74,12 @@ The configuration file has been streamlined by removing the `heater_entity_id` a
 - `remote_id`
 - `ac_id`
 
+![描述](images/WechatIMG228.jpg)
+![描述](images/WechatIMG230.jpg)
+![描述](images/WechatIMG226.jpg)
+![描述](images/WechatIMG227.jpg)
+
+
 ## Before Using / 使用前准备
 
 **English**:
