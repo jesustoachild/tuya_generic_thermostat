@@ -19,6 +19,13 @@ Idle Mode: If the temperature deviates significantly beyond the tolerance range 
 
 Separate User-Defined Target Temperatures and AC Operating Temperatures: Allows setting separate user-defined target temperatures and operating temperatures for the air conditioner. For example, if the target room temperature is set to 24°C, the air conditioner can cool to 22°C to reach the target temperature more quickly.
 
-Tuya API Integration: Implements Tuya API calls with automatic reconnection in case of failure, ensuring reliable communication with the Tuya cloud.
+Tuya API Integration: Supports Tuya API calls with automatic reconnection in case of failure, ensuring reliable communication with the Tuya cloud. Note: This code is configured to work with Tuya's China server. If you are in other countries or regions, please replace the API URL in api_x.py from https://openapi.tuyacn.com to the appropriate data center URL for your location.
 
-Simplified Configuration: The configuration file has been streamlined by removing the heater_entity_id and keep_alive parameters, replacing them with four Tuya API IDs.
+Simplified Configuration: The configuration file has been streamlined by removing the heater_entity_id and keep_alive parameters, replacing them with four Tuya API IDs：    
+  access_id
+  access_secret
+  remote_id
+  ac_id
+Before Using: Please install tuya-connector-python. For more details, visit tuya-connector-python GitHub page https://github.com/tuya/tuya-connector-python . To obtain your Tuya ID, visit Tuya Platform. https://platform.tuya.com/
+
+
