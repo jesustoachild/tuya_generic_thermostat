@@ -90,6 +90,49 @@ _This image illustrates the Fan-Only mode, where the air conditioner is circulat
 ![Idle Mode](images/WechatIMG227.jpg)
 _This image represents the Idle mode, where the air conditioner is turned off and the system is not actively controlling the room temperature._
 
+## YAML Configuration Instructions
+
+In this customized version of the `generic_thermostat`, the following changes have been made to the configuration:
+
+### Removed Parameters
+
+- **heater**: This parameter, which was used to specify the entity controlling the heating switch, has been removed.
+- **keep_alive**: This parameter has also been removed as it is no longer required.
+
+### Added Parameters
+
+To integrate with Tuya WiFi infrared remote controls, the following new parameters have been introduced:
+
+- **access_id**: _(Required)_ Your Tuya API Access ID.
+- **access_secret**: _(Required)_ Your Tuya API Access Secret.
+- **remote_id**: _(Required)_ The ID of the remote control device.
+- **ac_id**: _(Required)_ The ID of the air conditioner device.
+
+These four parameters must be filled out correctly for the integration to work properly.
+
+---
+
+## YAML 配置说明
+
+在这个定制版本的 `generic_thermostat` 中，配置发生了以下变化：
+
+### 移除的参数
+
+- **heater**：此参数用于指定控制加热开关的实体，现已移除。
+- **keep_alive**：此参数也已被移除，不再需要。
+
+### 新增的参数
+
+为了与涂鸦 WiFi 红外遥控器集成，添加了以下新参数：
+
+- **access_id**：_(必填)_ 你的涂鸦 API Access ID。
+- **access_secret**：_(必填)_ 你的涂鸦 API Access Secret。
+- **remote_id**：_(必填)_ 遥控设备的 ID。
+- **ac_id**：_(必填)_ 空调设备的 ID。
+
+这四个参数必须正确填写，才能使集成正常工作。
+
+
 
 ## HA configuration.yaml Sample
 
