@@ -84,6 +84,19 @@ Please install `tuya-connector-python` as per the instructions on the [tuya-conn
 
 请按照 [tuya-connector-python GitHub 页面](https://github.com/tuya/tuya-connector-python) 的说明安装 `tuya-connector-python`。获取你的 Tuya ID 请访问 [Tuya 平台](https://platform.tuya.com/)。
 
+## About `generic_thermostat`
+
+**English**:
+
+The `generic_thermostat` is an official Home Assistant (HA) integration that acts as a simple thermostat to control heating or cooling devices. It works by turning a switch or any other entity on or off based on the current temperature and a target temperature set by the user. This integration is highly customizable and can be adapted to various HVAC systems.
+
+For more details, you can visit the [official Home Assistant documentation](https://www.home-assistant.io/integrations/generic_thermostat/) and view the source code on [GitHub](https://github.com/home-assistant/core/blob/dev/homeassistant/components/generic_thermostat/).
+
+**中文**:
+
+`generic_thermostat` 是 Home Assistant (HA) 的官方集成，充当简单的温控器，用于控制供暖或制冷设备。它根据当前温度和用户设置的目标温度来打开或关闭一个开关或其他实体。这个集成具有高度的可定制性，可以适用于各种 HVAC 系统。
+
+更多详情请访问 [Home Assistant 官方文档](https://www.home-assistant.io/integrations/generic_thermostat/) 并查看 [GitHub 上的源代码](https://github.com/home-assistant/core/blob/dev/homeassistant/components/generic_thermostat/)。
 
 
 ## Acknowledgements / 致谢
