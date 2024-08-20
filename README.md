@@ -109,7 +109,7 @@ climate:
     initial_hvac_mode: "off"
     precision: 0.1
 
-
+```
 ## Before Using / 使用前准备
 
 **English**:
