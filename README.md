@@ -74,10 +74,22 @@ The configuration file has been streamlined by removing the `heater_entity_id` a
 - `remote_id`
 - `ac_id`
 
-![描述](images/WechatIMG228.jpg)
-![描述](images/WechatIMG230.jpg)
-![描述](images/WechatIMG226.jpg)
-![描述](images/WechatIMG227.jpg)
+### Cooling Mode
+![Cooling Mode](images/WechatIMG228.jpg)
+_This image shows the system in Cooling mode, where the air conditioner is actively cooling the room._
+
+### Heating Mode
+![Heating Mode](images/WechatIMG230.jpg)
+_This image demonstrates the Heating mode, with the air conditioner set to warm the room._
+
+### Fan-Only Mode
+![Fan-Only Mode](images/WechatIMG226.jpg)
+_This image illustrates the Fan-Only mode, where the air conditioner is circulating air without active heating or cooling._
+
+### Idle Mode
+![Idle Mode](images/WechatIMG227.jpg)
+_This image represents the Idle mode, where the air conditioner is turned off and the system is not actively controlling the room temperature._
+
 
 ## HA configuration.yaml Sample
 
