@@ -83,3 +83,15 @@ Please install `tuya-connector-python` as per the instructions on the [tuya-conn
 **中文**:
 
 请按照 [tuya-connector-python GitHub 页面](https://github.com/tuya/tuya-connector-python) 的说明安装 `tuya-connector-python`。获取你的 Tuya ID 请访问 [Tuya 平台](https://platform.tuya.com/)。
+
+
+
+## Acknowledgements / 致谢
+
+**English**:
+
+Parts of the Tuya API implementation in this project were inspired by and reference the work from [David Ilie](https://github.com/DavidIlie) on the [tuya-smart-ir-ac](https://github.com/DavidIlie/tuya-smart-ir-ac) project. We are grateful for the insights and inspiration his work provided.
+
+**中文**:
+
+本项目中的部分涂鸦 API 实现参考并借鉴了 [David Ilie](https://github.com/DavidIlie) 在 [tuya-smart-ir-ac](https://github.com/DavidIlie/tuya-smart-ir-ac) 项目中的工作。我们对他的项目给予的启发和参考深表感谢。
