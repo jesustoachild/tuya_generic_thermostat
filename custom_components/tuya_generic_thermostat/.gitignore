@@ -1,4 +1,5 @@
-*.pyc
 __pycache__/
 history/
 Untitled
+*.pyc
+.DS_Store
