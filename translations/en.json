@@ -1,0 +1,113 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tuya Generic Thermostat - Step 1/3",
+        "description": "How to get Tuya config details: Log in to Tuya Developer Platform (https://platform.tuya.com/cloud) -> 'Cloud Project', and open your project.",
+        "data": {
+          "name": "Name",
+          "region": "Tuya Cloud Region",
+          "access_id": "Access ID / Client ID",
+          "access_secret": "Access Secret / Client Secret",
+          "remote_id": "Tuya IR Remote Device ID",
+          "ac_id": "Tuya AC Device ID"
+        },
+        "data_description": {
+          "region": "The Tuya Cloud Server Region for API connection.",
+          "access_id": "Your Tuya IoT Platform Access ID.",
+          "access_secret": "Your Tuya IoT Platform Access Secret.",
+          "remote_id": "The Device ID of the smart IR remote in Tuya Cloud.",
+          "ac_id": "The Device ID of the paired air conditioner."
+        }
+      },
+      "settings": {
+        "title": "Thermostat Settings - Step 2/3",
+        "description": "Configure your thermostat's operational parameters.",
+        "data": {
+          "target_sensor": "Temperature sensor",
+          "ac_mode": "Cooling mode",
+          "cold_tolerance": "Cold tolerance",
+          "hot_tolerance": "Hot tolerance",
+          "min_cycle_duration": "Minimum cycle duration",
+          "min_temp": "Minimum target temperature",
+          "max_temp": "Maximum target temperature"
+        },
+        "data_description": {
+          "target_sensor": "Temperature sensor for current room temperature.",
+          "ac_mode": "Set the actuator specified to be treated as a cooling device instead of a heating device.",
+          "cold_tolerance": "Minimum amount of difference between the temperature read by the temperature sensor the target temperature that must change prior to being switched on.",
+          "hot_tolerance": "Minimum amount of difference between the temperature read by the temperature sensor the target temperature that must change prior to being switched off.",
+          "min_cycle_duration": "Minimum time between switching on and off.",
+          "min_temp": "Minimum settable target temperature.",
+          "max_temp": "Maximum settable target temperature."
+        }
+      },
+      "presets": {
+        "title": "Preset Temperatures - Step 3/3",
+        "description": "Optional target temperatures for preset modes.",
+        "data": {
+          "away_temp": "Away",
+          "comfort_temp": "Comfort",
+          "eco_temp": "Eco",
+          "home_temp": "Home",
+          "sleep_temp": "Sleep",
+          "activity_temp": "Activity"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Tuya Credentials",
+        "data": {
+          "region": "Tuya Cloud Region",
+          "access_id": "Access ID / Client ID",
+          "access_secret": "Access Secret / Client Secret",
+          "remote_id": "Tuya IR Remote Device ID",
+          "ac_id": "Tuya AC Device ID"
+        },
+        "data_description": {
+          "region": "The Tuya Cloud Server Region for API connection.",
+          "access_id": "Your Tuya IoT Platform Access ID.",
+          "access_secret": "Your Tuya IoT Platform Access Secret.",
+          "remote_id": "The Device ID of the smart IR remote in Tuya Cloud.",
+          "ac_id": "The Device ID of the paired air conditioner."
+        },
+        "description": "How to get Tuya config details: Log in to Tuya Developer Platform (https://platform.tuya.com/cloud) -> 'Cloud Project', and open your project."
+      },
+      "settings": {
+        "title": "Configure Thermostat Settings",
+        "data": {
+          "target_sensor": "Temperature sensor",
+          "ac_mode": "Cooling mode",
+          "cold_tolerance": "Cold tolerance",
+          "hot_tolerance": "Hot tolerance",
+          "min_cycle_duration": "Minimum cycle duration",
+          "min_temp": "Minimum target temperature",
+          "max_temp": "Maximum target temperature"
+        },
+        "data_description": {
+          "target_sensor": "Temperature sensor for current room temperature.",
+          "ac_mode": "Set the actuator specified to be treated as a cooling device instead of a heating device.",
+          "cold_tolerance": "Minimum amount of difference between the temperature read by the temperature sensor the target temperature that must change prior to being switched on.",
+          "hot_tolerance": "Minimum amount of difference between the temperature read by the temperature sensor the target temperature that must change prior to being switched off.",
+          "min_cycle_duration": "Minimum time between switching on and off.",
+          "min_temp": "Minimum settable target temperature.",
+          "max_temp": "Maximum settable target temperature."
+        }
+      },
+      "presets": {
+        "title": "Preset Temperatures",
+        "data": {
+          "away_temp": "Away",
+          "comfort_temp": "Comfort",
+          "eco_temp": "Eco",
+          "home_temp": "Home",
+          "sleep_temp": "Sleep",
+          "activity_temp": "Activity"
+        }
+      }
+    }
+  }
+}

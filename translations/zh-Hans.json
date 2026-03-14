@@ -1,0 +1,113 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "涂鸦空调温控 - 步骤 1/3",
+        "description": "获取涂鸦配置信息的路径：登录涂鸦开发者平台 (https://platform.tuya.com/cloud) -> 左侧菜单「云项目」，打开项目。",
+        "data": {
+          "name": "设备名称",
+          "region": "涂鸦 API 云端大区",
+          "access_id": "Access ID / Client ID",
+          "access_secret": "Access Secret / Client Secret",
+          "remote_id": "万能红外遥控器 Device ID",
+          "ac_id": "被控空调 Device ID"
+        },
+        "data_description": {
+          "region": "涂鸦服务器所在大区(中国大区选 CN，美洲选 US，欧洲选 EU，印度选 IN)。",
+          "access_id": "您在涂鸦 IoT 开发者平台的 Access ID。",
+          "access_secret": "您在涂鸦 IoT 开发者平台的 Access Secret。",
+          "remote_id": "涂鸦智能 App 中，那个发出红外信号的遥控器的设备 ID。",
+          "ac_id": "红外遥控器下挂载的、也就是您要控制的那台空调的设备 ID。"
+        }
+      },
+      "settings": {
+        "title": "温控器运行参数 - 步骤 2/3",
+        "description": "配置温度传感器与空调工作极限参数。",
+        "data": {
+          "target_sensor": "温度传感器",
+          "ac_mode": "制冷模式 (AC Mode)",
+          "cold_tolerance": "极冷容差 (Cold tolerance)",
+          "hot_tolerance": "极热容差 (Hot tolerance)",
+          "min_cycle_duration": "最小运行/停机时间",
+          "min_temp": "最小目标温度",
+          "max_temp": "最大目标温度"
+        },
+        "data_description": {
+          "target_sensor": "用来读取当前房间室内真实温度的传感器实体。",
+          "ac_mode": "开启此项，说明该设备是一台能制冷的空调，而不是制热暖气。",
+          "cold_tolerance": "必须低于目标温度多少度才触发启动。例如目标为25度，容差为0.5，则室内读数低于24.5时触发。",
+          "hot_tolerance": "必须高于目标温度多少度才触发停止。例如目标为25度，容差为0.5，则室内读数达到或超过25.5时触发。",
+          "min_cycle_duration": "保护压缩机机制，每次开机关机必须间隔多久才能进行下一次操作。",
+          "min_temp": "恒温器面板上允许拨到的最低温度。",
+          "max_temp": "恒温器面板上允许拨到的最高温度。"
+        }
+      },
+      "presets": {
+        "title": "预设温度配置 - 步骤 3/3",
+        "description": "(可选) 为各种智能按键配置预设恒温目标。",
+        "data": {
+          "away_temp": "离家模式温度",
+          "comfort_temp": "舒适模式温度",
+          "eco_temp": "节能模式温度",
+          "home_temp": "在家模式温度",
+          "sleep_temp": "睡眠模式温度",
+          "activity_temp": "活动模式温度"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "配置涂鸦云凭据",
+        "data": {
+          "region": "涂鸦 API 云端大区",
+          "access_id": "Access ID / Client ID",
+          "access_secret": "Access Secret / Client Secret",
+          "remote_id": "万能红外遥控器 Device ID",
+          "ac_id": "被控空调 Device ID"
+        },
+        "data_description": {
+          "region": "涂鸦服务器所在大区(中国大区选 CN，美洲选 US，欧洲选 EU，印度选 IN)。",
+          "access_id": "您在涂鸦 IoT 开发者平台的 Access ID。",
+          "access_secret": "您在涂鸦 IoT 开发者平台的 Access Secret。",
+          "remote_id": "涂鸦智能 App 中，那个发出红外信号的遥控器的设备 ID。",
+          "ac_id": "红外遥控器下挂载的、也就是您要控制的那台空调的设备 ID。"
+        },
+        "description": "获取涂鸦配置信息的路径：登录涂鸦开发者平台 (https://platform.tuya.com/cloud) -> 左侧菜单「云项目」，打开项目。"
+      },
+      "settings": {
+        "title": "温控器运行参数",
+        "data": {
+          "target_sensor": "温度传感器",
+          "ac_mode": "制冷模式 (AC Mode)",
+          "cold_tolerance": "极冷容差 (Cold tolerance)",
+          "hot_tolerance": "极热容差 (Hot tolerance)",
+          "min_cycle_duration": "最小运行/停机时间",
+          "min_temp": "最小目标温度",
+          "max_temp": "最大目标温度"
+        },
+        "data_description": {
+          "target_sensor": "用来读取当前房间室内真实温度的传感器实体。",
+          "ac_mode": "开启此项，说明该设备是一台能制冷的空调，而不是制热暖气。",
+          "cold_tolerance": "必须低于目标温度多少度才触发启动。例如目标为25度，容差为0.5，则室内读数低于24.5时触发。",
+          "hot_tolerance": "必须高于目标温度多少度才触发停止。例如目标为25度，容差为0.5，则室内读数达到或超过25.5时触发。",
+          "min_cycle_duration": "保护压缩机机制，每次开机关机必须间隔多久才能进行下一次操作。",
+          "min_temp": "恒温器面板上允许拨到的最低温度。",
+          "max_temp": "恒温器面板上允许拨到的最高温度。"
+        }
+      },
+      "presets": {
+        "title": "预设温度配置",
+        "data": {
+          "away_temp": "离家模式温度",
+          "comfort_temp": "舒适模式温度",
+          "eco_temp": "节能模式温度",
+          "home_temp": "在家模式温度",
+          "sleep_temp": "睡眠模式温度",
+          "activity_temp": "活动模式温度"
+        }
+      }
+    }
+  }
+}

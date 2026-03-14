@@ -1,0 +1,113 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tuya Generic Thermostat - Step 1/3",
+        "description": "How to get Tuya config details: Log in to Tuya Developer Platform (https://platform.tuya.com/cloud) -> 'Cloud Project', and open your project.",
+        "data": {
+          "name": "[%key:common::config_flow::data::name%]",
+          "region": "Tuya Cloud Region",
+          "access_id": "Access ID / Client ID",
+          "access_secret": "Access Secret / Client Secret",
+          "remote_id": "Tuya IR Remote Device ID",
+          "ac_id": "Tuya AC Device ID"
+        },
+        "data_description": {
+          "region": "The Tuya Cloud Server Region for API connection.",
+          "access_id": "Your Tuya IoT Platform Access ID.",
+          "access_secret": "Your Tuya IoT Platform Access Secret.",
+          "remote_id": "The Device ID of the smart IR remote in Tuya Cloud.",
+          "ac_id": "The Device ID of the paired air conditioner."
+        }
+      },
+      "settings": {
+        "title": "Thermostat Settings - Step 2/3",
+        "description": "Configure your thermostat's operational parameters.",
+        "data": {
+          "target_sensor": "Temperature sensor",
+          "ac_mode": "Cooling mode",
+          "cold_tolerance": "Cold tolerance",
+          "hot_tolerance": "Hot tolerance",
+          "min_cycle_duration": "Minimum cycle duration",
+          "min_temp": "Minimum target temperature",
+          "max_temp": "Maximum target temperature"
+        },
+        "data_description": {
+          "target_sensor": "Temperature sensor for current room temperature.",
+          "ac_mode": "Set the actuator specified to be treated as a cooling device instead of a heating device.",
+          "cold_tolerance": "Minimum amount of difference between the temperature read by the temperature sensor the target temperature that must change prior to being switched on.",
+          "hot_tolerance": "Minimum amount of difference between the temperature read by the temperature sensor the target temperature that must change prior to being switched off.",
+          "min_cycle_duration": "Minimum time between switching on and off.",
+          "min_temp": "Minimum settable target temperature.",
+          "max_temp": "Maximum settable target temperature."
+        }
+      },
+      "presets": {
+        "title": "Preset Temperatures - Step 3/3",
+        "description": "Optional target temperatures for preset modes.",
+        "data": {
+          "away_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::away%]",
+          "comfort_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::comfort%]",
+          "eco_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::eco%]",
+          "home_temp": "[%key:common::state::home%]",
+          "sleep_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::sleep%]",
+          "activity_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::activity%]"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Tuya Credentials",
+        "data": {
+          "region": "[%key:component::tuya_generic_thermostat::config::step::user::data::region%]",
+          "access_id": "[%key:component::tuya_generic_thermostat::config::step::user::data::access_id%]",
+          "access_secret": "[%key:component::tuya_generic_thermostat::config::step::user::data::access_secret%]",
+          "remote_id": "[%key:component::tuya_generic_thermostat::config::step::user::data::remote_id%]",
+          "ac_id": "[%key:component::tuya_generic_thermostat::config::step::user::data::ac_id%]"
+        },
+        "data_description": {
+          "region": "[%key:component::tuya_generic_thermostat::config::step::user::data_description::region%]",
+          "access_id": "[%key:component::tuya_generic_thermostat::config::step::user::data_description::access_id%]",
+          "access_secret": "[%key:component::tuya_generic_thermostat::config::step::user::data_description::access_secret%]",
+          "remote_id": "[%key:component::tuya_generic_thermostat::config::step::user::data_description::remote_id%]",
+          "ac_id": "[%key:component::tuya_generic_thermostat::config::step::user::data_description::ac_id%]"
+        },
+        "description": "How to get Tuya config details: Log in to Tuya Developer Platform (https://platform.tuya.com/cloud) -> 'Cloud Project', and open your project."
+      },
+      "settings": {
+        "title": "Configure Thermostat Settings",
+        "data": {
+          "target_sensor": "[%key:component::tuya_generic_thermostat::config::step::settings::data::target_sensor%]",
+          "ac_mode": "[%key:component::tuya_generic_thermostat::config::step::settings::data::ac_mode%]",
+          "cold_tolerance": "[%key:component::tuya_generic_thermostat::config::step::settings::data::cold_tolerance%]",
+          "hot_tolerance": "[%key:component::tuya_generic_thermostat::config::step::settings::data::hot_tolerance%]",
+          "min_cycle_duration": "[%key:component::tuya_generic_thermostat::config::step::settings::data::min_cycle_duration%]",
+          "min_temp": "[%key:component::tuya_generic_thermostat::config::step::settings::data::min_temp%]",
+          "max_temp": "[%key:component::tuya_generic_thermostat::config::step::settings::data::max_temp%]"
+        },
+        "data_description": {
+          "target_sensor": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::target_sensor%]",
+          "ac_mode": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::ac_mode%]",
+          "cold_tolerance": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::cold_tolerance%]",
+          "hot_tolerance": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::hot_tolerance%]",
+          "min_cycle_duration": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::min_cycle_duration%]",
+          "min_temp": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::min_temp%]",
+          "max_temp": "[%key:component::tuya_generic_thermostat::config::step::settings::data_description::max_temp%]"
+        }
+      },
+      "presets": {
+        "title": "[%key:component::tuya_generic_thermostat::config::step::presets::title%]",
+        "data": {
+          "away_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::away%]",
+          "comfort_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::comfort%]",
+          "eco_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::eco%]",
+          "home_temp": "[%key:common::state::home%]",
+          "sleep_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::sleep%]",
+          "activity_temp": "[%key:component::climate::entity_component::_::state_attributes::preset_mode::state::activity%]"
+        }
+      }
+    }
+  }
+}

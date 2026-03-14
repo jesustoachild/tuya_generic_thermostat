@@ -1,0 +1,4 @@
+reload:
+  name: Reload
+  description: Reloads Tuya Generic Thermostat from the YAML-configuration.
+

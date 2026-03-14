@@ -1,0 +1,10 @@
+{
+  "domain": "tuya_generic_thermostat",
+  "name": "Tuya Generic Thermostat",
+  "version": "1.6.2",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/generic_thermostat",
+  "iot_class": "cloud_push",
+  "requirements": ["tuya-connector-python==0.1.2"],
+  "codeowners": []
+}
