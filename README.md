@@ -1,4 +1,4 @@
-### Home Assistant Tuya IR Air Conditioner Integration (Generic Thermostat)
+# Home Assistant Tuya IR Air Conditioner Integration (Generic Thermostat)
 ## 项目简介与功能
 
 本项目是基于 Home Assistant 官方 `generic_thermostat` 插件的定制版本，专为 Tuya WiFi 红外遥控空调设备设计。  
