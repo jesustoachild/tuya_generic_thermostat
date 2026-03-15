@@ -181,6 +181,15 @@ logger:
   logs:
     custom_components.tuya_generic_thermostat: debug
 ```
+
+## Credits & References / 致谢与参考
+
+This project is built upon the foundations provided by the Home Assistant community and other open-source contributors. Special thanks to:
+
+* **[Home Assistant Generic Thermostat](https://www.home-assistant.io/integrations/generic_thermostat/)**: The core temperature control logic is derived from the official HA integration.
+* **[DavidIlie/tuya-smart-ir-ac](https://github.com/DavidIlie/tuya-smart-ir-ac)**: For the Tuya API implementation and IR AC control logic utilized in this project.
+* **[Tuya Developer Platform](https://developer.tuya.com/)**: For providing the OpenAPI that makes this smart IR control possible.
+
 ## License 
 This project is licensed under the **MIT License**. 
 This integration is a derivative work based on the official [Home Assistant Generic Thermostat](https://github.com/home-assistant/core/tree/dev/homeassistant/components/generic_thermostat) component, which is licensed under the **Apache License 2.0**. CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.
