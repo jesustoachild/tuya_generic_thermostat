@@ -1,4 +1,4 @@
-# # Home Assistant Tuya IR AC Smart Integration (Generic Thermostat)
+# Home Assistant Tuya IR AC Smart Integration (Generic Thermostat)
 
 ## 项目简介与功能
 
