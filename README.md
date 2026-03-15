@@ -181,3 +181,16 @@ logger:
   logs:
     custom_components.tuya_generic_thermostat: debug
 ```
+## License & Legal Notices / 授权与法律说明
+
+### License
+This project is licensed under the **MIT License**. You are free to use, copy, modify, and distribute this software, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the software.
+
+### Home Assistant Compatibility
+This is a third-party integration and is not officially affiliated with, maintained by, or endorsed by **Home Assistant** or **Nabu Casa**. This project uses the Home Assistant `generic_thermostat` logic as a foundation under its open-source terms.
+
+### Tuya Integration
+This integration communicates with the **Tuya OpenAPI**. Use of this integration is subject to Tuya's Developer Terms of Service. This project is not an official Tuya product and is provided "as is" without warranty of any kind.
+
+### Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.
