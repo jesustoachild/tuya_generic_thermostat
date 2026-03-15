@@ -103,10 +103,11 @@ logger:
 ### User Interface
 After successfully configuring the integration, you will see a clean and interactive thermostat card on your dashboard. Here are examples of the cooling and heating interfaces:
 
-| Heating Mode | Cooling  Mode |
+| Heating Mode | Cooling Mode |
 | --- | --- |
-| ![Cooling (Interface 1)](./images/Snip20260315_12.png) | ![Heating (Interface 1)](./images/Snip20260315_14.png) |
-| ![Cooling (Interface 2)](./images/Snip20260315_13.png) | ![Heating (Interface 2)](./images/Snip20260315_15.png) |
+| ![Heating Interface 1](https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_14.png) | ![Cooling Interface 1](https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_12.png) |
+| ![Heating Interface 2](https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_15.png) | ![Cooling Interface 2](https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_13.png) |
+
 ---
 ---
 
