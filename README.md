@@ -46,14 +46,22 @@ Since this project is not yet in the default HACS repository, you need to add it
 After installing and **restarting Home Assistant**, you can configure the integration.
 
 ### Recommended: UI Configuration (Config Flow)
+
 1. Go to Home Assistant -> **Settings** -> **Devices & Services**.
 2. Click **Add Integration** in the bottom right corner.
 3. Search for **Tuya Generic Thermostat** and select it.
 4. Follow the on-screen prompts to enter your external temperature sensor, Tuya Access ID, Access Secret, and Device IDs.
 
-![Config Flow Step 1](./images/configflow-1.png)
-![Config Flow Step 2](./images/configflow-2.png)
-![Config Flow Step 3](./images/configflow-3.png)
+<div align="center">
+  <img src="./images/configflow-1.png" alt="Config Flow Step 1" width="600">
+  <br><i>Step 1: Configure Tuya API Credentials</i><br><br>
+  
+  <img src="./images/configflow-2.png" alt="Config Flow Step 2" width="600">
+  <br><i>Step 2: Setup Device Entities and Precision</i><br><br>
+  
+  <img src="./images/configflow-3.png" alt="Config Flow Step 3" width="600">
+  <br><i>Step 3: Advanced Options & Finish</i>
+</div>
 
 ### Alternative: YAML Configuration (Advanced)
 ```yaml
