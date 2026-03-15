@@ -53,6 +53,7 @@ After installing and **restarting Home Assistant**, you can configure the integr
 
 *(Feel free to drag-and-drop your configuration screenshot here when editing on GitHub)*
 
+
 ### Alternative: YAML Configuration (Advanced)
 ```yaml
 climate:
