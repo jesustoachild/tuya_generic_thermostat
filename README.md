@@ -51,8 +51,9 @@ After installing and **restarting Home Assistant**, you can configure the integr
 3. Search for **Tuya Generic Thermostat** and select it.
 4. Follow the on-screen prompts to enter your external temperature sensor, Tuya Access ID, Access Secret, and Device IDs.
 
-*(Feel free to drag-and-drop your configuration screenshot here when editing on GitHub)*
-
+![Config Flow Step 1](./images/configflow-1.png)
+![Config Flow Step 2](./images/configflow-2.png)
+![Config Flow Step 3](./images/configflow-3.png)
 
 ### Alternative: YAML Configuration (Advanced)
 ```yaml
