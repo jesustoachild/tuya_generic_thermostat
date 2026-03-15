@@ -53,14 +53,16 @@ After installing and **restarting Home Assistant**, you can configure the integr
 4. Follow the on-screen prompts to enter your external temperature sensor, Tuya Access ID, Access Secret, and Device IDs.
 
 <div align="center">
-  <img src="./images/configflow-1.png" alt="Config Flow Step 1" width="600">
-  <br><i>Step 1: Configure Tuya API Credentials</i><br><br>
+  <img src="./images/configflow-1.png" alt="Config Flow Step 1" style="width: 600px; max-width: 100%;">
+  <p align="center"><i>Step 1: Configure Tuya API Credentials</i></p>
+  <br>
   
-  <img src="./images/configflow-2.png" alt="Config Flow Step 2" width="600">
-  <br><i>Step 2: Setup Device Entities and Precision</i><br><br>
+  <img src="./images/configflow-2.png" alt="Config Flow Step 2" style="width: 600px; max-width: 100%;">
+  <p align="center"><i>Step 2: Setup Device Entities and Precision</i></p>
+  <br>
   
-  <img src="./images/configflow-3.png" alt="Config Flow Step 3" width="600">
-  <br><i>Step 3: Advanced Options & Finish</i>
+  <img src="./images/configflow-3.png" alt="Config Flow Step 3" style="width: 600px; max-width: 100%;">
+  <p align="center"><i>Step 3: Advanced Options & Finish</i></p>
 </div>
 
 ### Alternative: YAML Configuration (Advanced)
