@@ -105,11 +105,10 @@ logger:
 After successfully configuring the integration, you will see a clean and interactive thermostat card on your dashboard. Here are examples of the cooling and heating interfaces:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_14.png" width="350" alt="Heating Mode 1">
-  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_12.png" width="350" alt="Cooling Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_14.png" width="350" alt="Cooling Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_12.png" width="350" alt="Heating Mode 1">
 </p>
 
----
 ---
 
 <h2 id="简体中文">简体中文</h2>
@@ -214,8 +213,8 @@ logger:
     custom_components.tuya_generic_thermostat: debug
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_14.png" width="350" alt="Heating Mode 1">
-  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_12.png" width="350" alt="Cooling Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/cool_cn.png" width="350" alt="Cooling Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/heating_cn.png" width="350" alt="Heating Mode 1">
 </p>
 
 ---
