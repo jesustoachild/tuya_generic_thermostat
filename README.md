@@ -11,7 +11,8 @@ This project is a customized version based on the official Home Assistant `gener
 It not only supports basic IR remote commands but also integrates with external temperature sensors to achieve 0.1°C precision temperature control, enhancing indoor comfort via temperature difference control (0.4–0.6°C tolerance).
 
 ### Key Features
-- **Multi-region Tuya Cloud Support:** Covers global regions like CN, US, EU, IN, SG, etc., backing both English and Chinese UIs.
+- **Multi-region Tuya Cloud Support:** Covers global regions including CN, US, EU, and IN, with support for 8 language interfaces: English, 简体中文, 繁體中文, Français, Deutsch, Italiano, 日本語, and 한국어.
+
 - **External Temperature Sensor:** Can be linked with any HA temperature sensor for more accurate and comfortable control.
 - **Flexible Configuration:** Supports both UI-based Config Flow and manual `configuration.yaml` setup for advanced users.
 - **Complete Climate Logic:** A single HA `climate` entity handles mode switching (Cool/Heat, configured via `ac_mode`), target temperature, fan speed, auto energy-saving, and comfort modes.
@@ -119,7 +120,8 @@ After successfully configuring the integration, you will see a clean and interac
 它不仅支持传统空调的基本遥控功能，还可结合外部温度传感器实现 0.1°C 精度温控，并通过温差控制（0.4–0.6°C）提升室内体感舒适度。
 
 ### 主要功能
-- **多区域 Tuya 云服务器支持**：覆盖 CN / US / EU / IN / SG 等全球区域，支持中英文 UI。  
+### 多区域 Tuya 云服务器支持：覆盖 CN / US / EU / IN / SG 等全球区域，支持 8 种语言界面：English (英语)、简体中文、繁體中文、Français (法语)、Deutsch (德语)、Italiano (意大利语)、日本語 (日语)、한국어 (韩语)。
+- **多语言界面**：支持 7 种语言，全球用户友好。  
 - **外部温度传感器支持**：可接入任意 HA 温度传感器，实现更精确温控与舒适体验。  
 - **Home Assistant 配置支持**：同时支持 UI 配置流程（Config Flow），也可在 Home Assistant 配置目录下的 `configuration.yaml` 文件中手动添加本插件配置，方便高级用户自定义参数。  
 - **完整智能温控逻辑**：通过单个 HA `climate` 实体实现模式切换（制冷/制热，可通过 `ac_mode` 配置）、温度调节、风速控制、自动节能与舒适模式等功能。  
@@ -163,7 +165,22 @@ After successfully configuring the integration, you will see a clean and interac
 3. 搜索 **Tuya Generic Thermostat** 并点击添加。
 4. 按照系统向导提示，填入你需要绑定的温度传感器、Tuya Access ID、Secret 和设备 ID 等信息即可完成加载。
 
-*(此处可插入配置截图，提示：在 GitHub 网页端编辑本文件时，可直接将你的截图图片拖拽到这里即可自动上传并显示)*
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/fl_1_cn.png" alt="Config Flow Step 1" width="600">
+<p><i>Step 1: Configure Tuya API Credentials</i></p>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/fl_2_cn.png" alt="Config Flow Step 2" width="600">
+<p><i>Step 2: Setup Device Entities and Precision</i></p>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/fl_3_cn.png" alt="Config Flow Step 3" width="600">
+<p><i>Step 3: Advanced Options & Finish</i></p>
+
+</div>
 
 ### 备选：YAML 配置（高级用户）
 
