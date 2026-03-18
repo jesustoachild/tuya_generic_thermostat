@@ -105,8 +105,8 @@ logger:
 After successfully configuring the integration, you will see a clean and interactive thermostat card on your dashboard. Here are examples of the cooling and heating interfaces:
 
 <p align="center">
-  <img src="images/Snip20260315_14.png" width="350" alt="Heating Mode 1">
-  <img src="images/Snip20260315_12.png" width="350" alt="Cooling Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_14.png" width="350" alt="Heating Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_12.png" width="350" alt="Cooling Mode 1">
 </p>
 
 ---
@@ -213,7 +213,13 @@ logger:
   logs:
     custom_components.tuya_generic_thermostat: debug
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_14.png" width="350" alt="Heating Mode 1">
+  <img src="https://raw.githubusercontent.com/jesustoachild/tuya_generic_thermostat/main/images/Snip20260315_12.png" width="350" alt="Cooling Mode 1">
+</p>
 
+---
+---
 ## Credits & References / 致谢与参考
 
 This project is built upon the foundations provided by the Home Assistant community and other open-source contributors. Special thanks to:
